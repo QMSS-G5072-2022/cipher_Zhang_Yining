@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cipher-yz4286"
+version = "0.1.0"
+description = ""
+authors = ["IreneZhang21 <yz4286@columbia.edu>"]
+readme = "README.md"
+packages = [{include = "cipher_yz4286"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
