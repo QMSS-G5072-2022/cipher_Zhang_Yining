@@ -1,0 +1,39 @@
+:py:mod:`cipher_yz4286.cipher_yz4286`
+=====================================
+
+.. py:module:: cipher_yz4286.cipher_yz4286
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   cipher_yz4286.cipher_yz4286.cipher
+
+
+
+.. py:function:: cipher(text, shift, encrypt=True)
+
+   Each letter is replaced by a letter some fixed number of positions down the alphabet
+
+   :param text: A string you wish to encrypt or decrypt
+   :type text: String
+   :param shift: A integer that represent the number of position down the alphabet
+   :type shift: integer
+   :param encrypt: A true or false value that represents encrypt or decrypt
+   :type encrypt: Booleon
+
+   :returns: The new string after encrypt
+   :rtype: String
+
+   .. rubric:: Examples
+
+   >>> cipher('coffee!',1,  encrypt=True)
+   oYoY
+
+

@@ -1,0 +1,23 @@
+:py:mod:`cipher_yz4286`
+=======================
+
+.. py:module:: cipher_yz4286
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   cipher_yz4286/index.rst
+
+
+Package Contents
+----------------
+
+.. py:data:: __version__
+   
+
+   
+
