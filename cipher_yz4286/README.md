@@ -1,6 +1,6 @@
 # cipher_yz4286
 
-Encrypt or Debcyrypt words
+Encrypt and decdecrypt
 
 ## Installation
 
